@@ -245,7 +245,7 @@ df.info()
 
 # Tratare coloane nil
 df.isnull().sum()
-df = df.fillna(df.mean())
+df = df.fillna(df.mean(numeric_only=True))
 df.isnull().sum()
 st.write(df.head())
 
