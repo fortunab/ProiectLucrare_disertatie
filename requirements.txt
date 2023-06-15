@@ -7,7 +7,9 @@ pyparsing==2.4.7
 htbuilder
 scikit-learn
 sklearn
-sklearn
 pandas
 xgboost==1.6.1
 seaborn
+scipy
+PyYaml
+numpy
