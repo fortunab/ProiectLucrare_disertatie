@@ -177,18 +177,18 @@ def matricea_heatmap_total():
     plt.savefig("heatmap_ds2.pdf", format="pdf", bbox_inches="tight")
     # plt.show()
     # plt.show(fig)
-matricea_heatmap_total()
+# matricea_heatmap_total()
 
-def matricea_heatmap_var_ind():
-    print("\nMatricea de relatie pentru potentiala variabila independenta ")
-    fig, ax = plt.subplots()
-    mcorelatieX = X.corr()
-    sb.heatmap(mcorelatieX, ax=ax)
-    plt.xticks(rotation=90)
-    plt.yticks(rotation=0)
+# def matricea_heatmap_var_ind():
+    # print("\nMatricea de relatie pentru potentiala variabila independenta ")
+    # fig, ax = plt.subplots()
+    # mcorelatieX = X.corr()
+    # sb.heatmap(mcorelatieX, ax=ax)
+    # plt.xticks(rotation=90)
+    # plt.yticks(rotation=0)
     # plt.show()
     # plt.show(fig)
-matricea_heatmap_var_ind()
+# matricea_heatmap_var_ind()
 
 
 X = df[['Total Tests', 'Total Recovered', 'Serious or Critical', 'Active Cases']]
